@@ -1,0 +1,41 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+.container h1 {
+    margin-top: 0;
+}
+.container input[type="text"] {
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+    border: 5px solid #ccc;
+    border-radius: 5px;
+}
+.container label {
+    display: block;
+    margin-bottom: 5px;
+    
+}
+.label{
+    cursor: pointer;
+}
+.button{
+    padding: 10px 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
